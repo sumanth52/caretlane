@@ -1,0 +1,21 @@
+md-toast{
+	width: 100%;
+	text-align: center;
+}
+.auto-margin{
+	margin: auto;
+}
+.text-center{text-align: center;}
+.fullWidth{width: 100%;}
+body{background: #ededed;}
+md-toolbar .md-toolbar-tools{background: whitesmoke;}
+md-toolbar .md-toolbar-tools img{height: 40px;}
+.textarea{
+	height: 150px;
+	border: 1px solid rgb(205, 205, 205);
+	padding: 5px;
+}
+form{
+	width:70%;
+	margin: auto;
+}

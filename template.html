@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="iconfont/material-icons.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.3/angular-material.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css" >
+
+  </head>
+
+  <body ng-app="myApp">
+  <div class="container" ng-controller="appCtrl">
+  <md-toolbar class="header">
+ <div class="md-toolbar-tools">
+   <h2 md-truncate flex hide-xs><a href="#"> <img src="data:image/png;base64,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" class="site_logo" title="Caratlane" alt="Caratlane">
+              </a></h2>
+   <span flex></span>
+
+ </div>
+</md-toolbar>
+  <div layout="row" layout-padding layout-wrap layout-fill style="padding-bottom: 32px;" ng-cloak>
+    <md-whiteframe class="md-whiteframe-1dp auto-margin" flex-sm="65" flex-gt-sm="55" flex-gt-md="45" layout >
+      <form name="contactUs" role="form" id="myForm">
+        <md-input-container class="md-block">
+          <label>Email id</label>
+          <input required md-no-asterisk name="email" ng-model="sampleForm.email" type="email" >
+          <div ng-messages="contactUs.email.$error">
+            <div ng-message="required">This is required.</div>
+            <div ng-message="email">Please enter valid email.</div>
+          </div>
+        </md-input-container>
+        <md-input-container class="md-block">
+          <label>Name</label>
+          <input required md-no-asterisk name="userName" id="object" ng-model="sampleForm.userName" type="text" >
+          <div ng-messages="contactUs.userName.$error">
+            <div ng-message="required">This is required.</div>
+          </div>
+        </md-input-container>
+        <md-input-container class="md-block">
+          <label>Enter your message </label>
+          <textarea rows="5" required class="textarea" name="userMessage" ng-model="sampleForm.userMessage"></textarea>
+          <div ng-messages="contactUs.userMessage.$error">
+            <div ng-message="required">This is required.</div>
+          </div>
+      </md-input-container>
+        <md-button class="md-raised md-primary text-center fullWidth" type="submit" value="Reset" ng-click="add(sampleForm)">Contact Us</md-button>
+      </form>
+    </md-whiteframe>
+  </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+  <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
